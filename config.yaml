@@ -1,0 +1,14 @@
+filepaths:
+  image_dir: /home/surya/Desktop/musicai/data/data/DATA/images
+  annotation_dir: /home/surya/Desktop/musicai/data/data/DATA/annotations
+  output_dir: /home/surya/Desktop/musicai/data/data/DATA/output
+training:
+  batch_size: 16
+  epochs: 50
+  learning_rate: 1e-4
+model:
+  backbone_layers: [64, 128, 256, 512]  # Example: Adjust based on model requirements
+  num_layers: 4
+  input_size: 256
+  hidden_size: 512
+  channels: 3
